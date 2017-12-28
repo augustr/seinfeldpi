@@ -6,10 +6,10 @@ This python script senses a door open/close on GPIO pin 4 and play a random bass
 
 ## How it works
 
-# Connect to the Pi something that opens the circuit between GPIO pin 4 and ground when a door opens.
-# Gather some .wav files and place in audio/ subfolder
-# Run seinfeld.py as root
-# Enjoy!
+* Connect to the Pi something that opens the circuit between GPIO pin 4 and ground when a door opens.
+* Gather some .wav files and place in audio/ subfolder
+* Run seinfeld.py as root
+* Enjoy!
 
 ## License
 
