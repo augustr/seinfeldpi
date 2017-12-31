@@ -4,6 +4,8 @@ import pygame
 import RPi.GPIO as GPIO
 import glob
 import random
+import sys
+import os
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
@@ -19,6 +21,7 @@ pygame.mixer.init()
 channel = pygame.mixer.Channel(0)
 
 # Load all audio files
+os.chdir(os.path.dirname(sys.argv[0]))
 audio_files = glob.glob("./audio/*.wav")
 
 audios = []
